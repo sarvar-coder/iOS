@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E58CE7F2E1FE4D70049B458 /* Animal .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58CE7E2E1FE4D70049B458 /* Animal .swift */; };
+		5E5AFF4E2E1FEB64002A7426 /* AnimalsMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AFF4D2E1FEB64002A7426 /* AnimalsMock.swift */; };
+		5E5AFF5E2E209641002A7426 /* PetSaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AFF5C2E209641002A7426 /* PetSaveTests.swift */; };
+		5E5AFF752E2096A2002A7426 /* PetSaveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AFF722E2096A2002A7426 /* PetSaveUITests.swift */; };
 		5EB200212E1CCE7A007B75AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2001E2E1CCE7A007B75AA /* ContentView.swift */; };
 		5EB200222E1CCE7A007B75AA /* PetSaveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2001F2E1CCE7A007B75AA /* PetSaveApp.swift */; };
 		5EB200232E1CCE7A007B75AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB2001D2E1CCE7A007B75AA /* Assets.xcassets */; };
@@ -45,11 +49,32 @@
 		5EB200792E1CD80F007B75AA /* AnimalTypeSuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB200722E1CD80F007B75AA /* AnimalTypeSuggestionView.swift */; };
 		5EB2007A2E1CD80F007B75AA /* EmptyResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB200732E1CD80F007B75AA /* EmptyResultsView.swift */; };
 		5EB2007E2E1CD99E007B75AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB2007D2E1CD99E007B75AA /* LaunchScreen.storyboard */; };
-		5EB2008C2E1CDD88007B75AA /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2008B2E1CDD88007B75AA /* CoreData.swift */; };
-		5EB2008E2E1CDDC7007B75AA /* PetSaveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2008D2E1CDDC7007B75AA /* PetSaveUITests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5E5AFF572E20963B002A7426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EB200072E1CCE72007B75AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB2000E2E1CCE73007B75AA;
+			remoteInfo = PetSave;
+		};
+		5E5AFF6D2E20969E002A7426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EB200072E1CCE72007B75AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB2000E2E1CCE73007B75AA;
+			remoteInfo = PetSave;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5E58CE7E2E1FE4D70049B458 /* Animal .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animal .swift"; sourceTree = "<group>"; };
+		5E5AFF4D2E1FEB64002A7426 /* AnimalsMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsMock.swift; sourceTree = "<group>"; };
+		5E5AFF532E20963B002A7426 /* PetSaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetSaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5AFF5C2E209641002A7426 /* PetSaveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSaveTests.swift; sourceTree = "<group>"; };
+		5E5AFF672E20969E002A7426 /* PetSaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetSaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5AFF722E2096A2002A7426 /* PetSaveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSaveUITests.swift; sourceTree = "<group>"; };
 		5EB2000F2E1CCE73007B75AA /* PetSave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetSave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB2001D2E1CCE7A007B75AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EB2001E2E1CCE7A007B75AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,11 +118,23 @@
 		5EB200812E1CDB10007B75AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EB200832E1CDC25007B75AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5EB200842E1CDC25007B75AA /* AnimalsMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AnimalsMock.json; sourceTree = "<group>"; };
-		5EB2008B2E1CDD88007B75AA /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
-		5EB2008D2E1CDDC7007B75AA /* PetSaveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSaveUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5E5AFF502E20963B002A7426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5AFF642E20969E002A7426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5EB2000C2E1CCE73007B75AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -108,12 +145,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E5AFF5D2E209641002A7426 /* PetSaveTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E5AFF622E209680002A7426 /* Tests */,
+			);
+			path = PetSaveTests;
+			sourceTree = "<group>";
+		};
+		5E5AFF5F2E20965C002A7426 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5E5AFF602E209662002A7426 /* Data */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5E5AFF602E209662002A7426 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5E5AFF612E209668002A7426 /* CoreData */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5E5AFF612E209668002A7426 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5E5AFF5C2E209641002A7426 /* PetSaveTests.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		5E5AFF622E209680002A7426 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5E5AFF5F2E20965C002A7426 /* Core */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		5E5AFF742E2096A2002A7426 /* PetSaveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E5AFF722E2096A2002A7426 /* PetSaveUITests.swift */,
+			);
+			path = PetSaveUITests;
+			sourceTree = "<group>";
+		};
 		5EB200062E1CCE72007B75AA = {
 			isa = PBXGroup;
 			children = (
 				5EB200202E1CCE7A007B75AA /* PetSave */,
-				5EB200852E1CDD14007B75AA /* PetSaveTests */,
-				5EB200862E1CDD35007B75AA /* PetSaveUITests */,
+				5E5AFF5D2E209641002A7426 /* PetSaveTests */,
+				5E5AFF742E2096A2002A7426 /* PetSaveUITests */,
 				5EB200102E1CCE73007B75AA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,6 +207,8 @@
 			isa = PBXGroup;
 			children = (
 				5EB2000F2E1CCE73007B75AA /* PetSave.app */,
+				5E5AFF532E20963B002A7426 /* PetSaveTests.xctest */,
+				5E5AFF672E20969E002A7426 /* PetSaveUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -202,6 +289,8 @@
 			children = (
 				5EB200382E1CD2E8007B75AA /* details */,
 				5EB2003B2E1CD372007B75AA /* Coat .swift */,
+				5E58CE7E2E1FE4D70049B458 /* Animal .swift */,
+				5E5AFF4D2E1FEB64002A7426 /* AnimalsMock.swift */,
 				5EB2003D2E1CD3A8007B75AA /* Size.swift */,
 				5EB2003F2E1CD3B9007B75AA /* Gender.swift */,
 				5EB200412E1CD3E6007B75AA /* Age.swift */,
@@ -326,57 +415,49 @@
 			path = PreviewContent;
 			sourceTree = "<group>";
 		};
-		5EB200852E1CDD14007B75AA /* PetSaveTests */ = {
-			isa = PBXGroup;
-			children = (
-				5EB2008A2E1CDD64007B75AA /* Tests */,
-			);
-			path = PetSaveTests;
-			sourceTree = "<group>";
-		};
-		5EB200862E1CDD35007B75AA /* PetSaveUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5EB2008D2E1CDDC7007B75AA /* PetSaveUITests.swift */,
-			);
-			path = PetSaveUITests;
-			sourceTree = "<group>";
-		};
-		5EB200872E1CDD4A007B75AA /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				5EB200882E1CDD4F007B75AA /* data */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		5EB200882E1CDD4F007B75AA /* data */ = {
-			isa = PBXGroup;
-			children = (
-				5EB200892E1CDD54007B75AA /* CoreData */,
-			);
-			path = data;
-			sourceTree = "<group>";
-		};
-		5EB200892E1CDD54007B75AA /* CoreData */ = {
-			isa = PBXGroup;
-			children = (
-				5EB2008B2E1CDD88007B75AA /* CoreData.swift */,
-			);
-			path = CoreData;
-			sourceTree = "<group>";
-		};
-		5EB2008A2E1CDD64007B75AA /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				5EB200872E1CDD4A007B75AA /* Core */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5E5AFF522E20963B002A7426 /* PetSaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5AFF592E20963B002A7426 /* Build configuration list for PBXNativeTarget "PetSaveTests" */;
+			buildPhases = (
+				5E5AFF4F2E20963B002A7426 /* Sources */,
+				5E5AFF502E20963B002A7426 /* Frameworks */,
+				5E5AFF512E20963B002A7426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E5AFF582E20963B002A7426 /* PBXTargetDependency */,
+			);
+			name = PetSaveTests;
+			packageProductDependencies = (
+			);
+			productName = PetSaveTests;
+			productReference = 5E5AFF532E20963B002A7426 /* PetSaveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E5AFF662E20969E002A7426 /* PetSaveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5AFF6F2E20969E002A7426 /* Build configuration list for PBXNativeTarget "PetSaveUITests" */;
+			buildPhases = (
+				5E5AFF632E20969E002A7426 /* Sources */,
+				5E5AFF642E20969E002A7426 /* Frameworks */,
+				5E5AFF652E20969E002A7426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E5AFF6E2E20969E002A7426 /* PBXTargetDependency */,
+			);
+			name = PetSaveUITests;
+			packageProductDependencies = (
+			);
+			productName = PetSaveUITests;
+			productReference = 5E5AFF672E20969E002A7426 /* PetSaveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		5EB2000E2E1CCE73007B75AA /* PetSave */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EB2001A2E1CCE75007B75AA /* Build configuration list for PBXNativeTarget "PetSave" */;
@@ -406,6 +487,14 @@
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
+					5E5AFF522E20963B002A7426 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5EB2000E2E1CCE73007B75AA;
+					};
+					5E5AFF662E20969E002A7426 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5EB2000E2E1CCE73007B75AA;
+					};
 					5EB2000E2E1CCE73007B75AA = {
 						CreatedOnToolsVersion = 16.4;
 					};
@@ -417,6 +506,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 5EB200062E1CCE72007B75AA;
 			minimizedProjectReferenceProxies = 1;
@@ -426,11 +516,27 @@
 			projectRoot = "";
 			targets = (
 				5EB2000E2E1CCE73007B75AA /* PetSave */,
+				5E5AFF522E20963B002A7426 /* PetSaveTests */,
+				5E5AFF662E20969E002A7426 /* PetSaveUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5E5AFF512E20963B002A7426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5AFF652E20969E002A7426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5EB2000D2E1CCE73007B75AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -443,11 +549,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5E5AFF4F2E20963B002A7426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5AFF5E2E209641002A7426 /* PetSaveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5AFF632E20969E002A7426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5AFF752E2096A2002A7426 /* PetSaveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5EB2000B2E1CCE73007B75AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5EB200612E1CD603007B75AA /* AnimalHeaderView.swift in Sources */,
+				5E5AFF4E2E1FEB64002A7426 /* AnimalsMock.swift in Sources */,
 				5EB200622E1CD603007B75AA /* AnimalDetailRow.swift in Sources */,
 				5EB200632E1CD603007B75AA /* AnimalDetailCard.swift in Sources */,
 				5EB200642E1CD603007B75AA /* AnimalContactLink.swift in Sources */,
@@ -469,15 +592,14 @@
 				5EB200352E1CD296007B75AA /* Organization.swift in Sources */,
 				5EB200502E1CD49E007B75AA /* AdoptionStatus.swift in Sources */,
 				5EB200462E1CD416007B75AA /* PhotoSize.swift in Sources */,
-				5EB2008E2E1CDDC7007B75AA /* PetSaveUITests.swift in Sources */,
 				5EB2002E2E1CCF64007B75AA /* Persistence.swift in Sources */,
 				5EB2004A2E1CD446007B75AA /* AnimalAttributes.swift in Sources */,
 				5EB200572E1CD56B007B75AA /* LocationManager.swift in Sources */,
 				5EB2003E2E1CD3A8007B75AA /* Size.swift in Sources */,
 				5EB200372E1CD2DB007B75AA /* User.swift in Sources */,
-				5EB2008C2E1CDD88007B75AA /* CoreData.swift in Sources */,
 				5EB2004E2E1CD485007B75AA /* APIColors.swift in Sources */,
 				5EB200422E1CD3E6007B75AA /* Age.swift in Sources */,
+				5E58CE7F2E1FE4D70049B458 /* Animal .swift in Sources */,
 				5EB200522E1CD4AF007B75AA /* Pagination.swift in Sources */,
 				5EB200772E1CD80F007B75AA /* SuggestionsGrid.swift in Sources */,
 				5EB200782E1CD80F007B75AA /* SearchView.swift in Sources */,
@@ -489,6 +611,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E5AFF582E20963B002A7426 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EB2000E2E1CCE73007B75AA /* PetSave */;
+			targetProxy = 5E5AFF572E20963B002A7426 /* PBXContainerItemProxy */;
+		};
+		5E5AFF6E2E20969E002A7426 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EB2000E2E1CCE73007B75AA /* PetSave */;
+			targetProxy = 5E5AFF6D2E20969E002A7426 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5EB2007D2E1CD99E007B75AA /* LaunchScreen.storyboard */ = {
@@ -503,6 +638,76 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5E5AFF5A2E20963B002A7426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 386NUBNWC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bss.dev.PetSaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetSave.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetSave";
+			};
+			name = Debug;
+		};
+		5E5AFF5B2E20963B002A7426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 386NUBNWC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bss.dev.PetSaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetSave.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetSave";
+			};
+			name = Release;
+		};
+		5E5AFF702E20969E002A7426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 386NUBNWC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bss.dev.PetSaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetSave;
+			};
+			name = Debug;
+		};
+		5E5AFF712E20969E002A7426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 386NUBNWC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bss.dev.PetSaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetSave;
+			};
+			name = Release;
+		};
 		5EB200182E1CCE75007B75AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -689,6 +894,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5E5AFF592E20963B002A7426 /* Build configuration list for PBXNativeTarget "PetSaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5AFF5A2E20963B002A7426 /* Debug */,
+				5E5AFF5B2E20963B002A7426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E5AFF6F2E20969E002A7426 /* Build configuration list for PBXNativeTarget "PetSaveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5AFF702E20969E002A7426 /* Debug */,
+				5E5AFF712E20969E002A7426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5EB2000A2E1CCE72007B75AA /* Build configuration list for PBXProject "PetSave" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
