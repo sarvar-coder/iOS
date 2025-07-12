@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Animal: Codable {
+struct Animal: Codable, Identifiable {
     var id: Int?
     let organizationId: String?
     let url: URL?
@@ -31,4 +31,11 @@ struct Animal: Codable {
     let publishedAt: String?
     let distance: Double?
     var ranking: Int? = 0
+}
+
+// MARK: Helper
+extension Animal {
+    var picture: URL? {
+        photos.first?.medium ?? photos.first?.large
+    }
 }
