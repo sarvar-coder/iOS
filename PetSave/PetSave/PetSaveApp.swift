@@ -9,11 +9,9 @@ import SwiftUI
 
 @main
 struct PetSaveApp: App {
-    let viewContext = PersistenceController.preview.container.viewContext
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, viewContext)            
         }
     }
 }
