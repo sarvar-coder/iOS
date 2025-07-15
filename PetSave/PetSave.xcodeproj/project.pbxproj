@@ -99,6 +99,9 @@
 		5EB9E74C2E25FF8600832196 /* SearchFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9E74B2E25FF8600832196 /* SearchFilterView.swift */; };
 		5EB9E74E2E26012C00832196 /* FilterAnimals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9E74D2E26012C00832196 /* FilterAnimals.swift */; };
 		5EC66FEB2E2631DB0030B3EF /* PetSaveOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC66FEA2E2631DB0030B3EF /* PetSaveOnboarding */; };
+		5EC66FED2E267C390030B3EF /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC66FEC2E267C390030B3EF /* NavigationRouter.swift */; };
+		5EC66FEF2E267FE40030B3EF /* PetSaveTabType .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC66FEE2E267FE40030B3EF /* PetSaveTabType .swift */; };
+		5EC66FF12E267FF70030B3EF /* PetSaveTabNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC66FF02E267FF70030B3EF /* PetSaveTabNavigator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -234,6 +237,9 @@
 		5EB9E7492E25FC9600832196 /* AnimalSearcherMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalSearcherMock.swift; sourceTree = "<group>"; };
 		5EB9E74B2E25FF8600832196 /* SearchFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilterView.swift; sourceTree = "<group>"; };
 		5EB9E74D2E26012C00832196 /* FilterAnimals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterAnimals.swift; sourceTree = "<group>"; };
+		5EC66FEC2E267C390030B3EF /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
+		5EC66FEE2E267FE40030B3EF /* PetSaveTabType .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PetSaveTabType .swift"; sourceTree = "<group>"; };
+		5EC66FF02E267FF70030B3EF /* PetSaveTabNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSaveTabNavigator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -608,6 +614,7 @@
 				5EB200542E1CD511007B75AA /* AddressFetcher.swift */,
 				5EB200562E1CD56B007B75AA /* LocationManager.swift */,
 				5E5AFF962E221E33002A7426 /* AppUserDefaultsKeys.swift */,
+				5EC66FEC2E267C390030B3EF /* NavigationRouter.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -707,6 +714,8 @@
 			isa = PBXGroup;
 			children = (
 				5EB9E7412E25F59500832196 /* AnimalListView.swift */,
+				5EC66FEE2E267FE40030B3EF /* PetSaveTabType .swift */,
+				5EC66FF02E267FF70030B3EF /* PetSaveTabNavigator.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -957,6 +966,7 @@
 				5EB200632E1CD603007B75AA /* AnimalDetailCard.swift in Sources */,
 				5EB200642E1CD603007B75AA /* AnimalContactLink.swift in Sources */,
 				5E1F1AD22E23DDEF002DC408 /* CoreDataPersistable.swift in Sources */,
+				5EC66FF12E267FF70030B3EF /* PetSaveTabNavigator.swift in Sources */,
 				5EB2006B2E1CD701007B75AA /* AnimalsNearYouView.swift in Sources */,
 				5EB200712E1CD7F9007B75AA /* AnimalSearchAge.swift in Sources */,
 				5EB200652E1CD603007B75AA /* AnimalLocationView.swift in Sources */,
@@ -965,6 +975,7 @@
 				5EB200662E1CD603007B75AA /* AnimalContactsView.swift in Sources */,
 				5EB200672E1CD603007B75AA /* AnimalDetailsView.swift in Sources */,
 				5EB2002C2E1CCF1B007B75AA /* PetSave.xcdatamodeld in Sources */,
+				5EC66FEF2E267FE40030B3EF /* PetSaveTabType .swift in Sources */,
 				5E1F1ADC2E24CCFB002DC408 /* AnimalsFetcherMock.swift in Sources */,
 				5EB200442E1CD400007B75AA /* Breed.swift in Sources */,
 				5EB200402E1CD3B9007B75AA /* Gender.swift in Sources */,
@@ -1009,6 +1020,7 @@
 				5EB200422E1CD3E6007B75AA /* Age.swift in Sources */,
 				5E5AFF8E2E221568002A7426 /* AnimalsRequest.swift in Sources */,
 				5E58CE7F2E1FE4D70049B458 /* Animal .swift in Sources */,
+				5EC66FED2E267C390030B3EF /* NavigationRouter.swift in Sources */,
 				5EB200522E1CD4AF007B75AA /* Pagination.swift in Sources */,
 				5EB200772E1CD80F007B75AA /* SuggestionsGrid.swift in Sources */,
 				5E5AFF972E221E33002A7426 /* AppUserDefaultsKeys.swift in Sources */,

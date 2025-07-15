@@ -8,23 +8,47 @@
 import SwiftUI
 
 struct AnimalDetailsView: View {
-  var body: some View {
-    Text("TODO: Animal Details")
-  }
+    var name: String
+    @EnvironmentObject var navigationState: NavigationState
+    var body: some View {
+        Text(name)
+        
+        Button(navigationState.isNavigatingDisabled ? "Enable Navigation" : "DisableNavigation") {
+            navigationState.isNavigatingDisabled.toggle()
+    }
+}
 }
 
 struct AnimalsView_Previews: PreviewProvider {
   static var previews: some View {
     NavigationView {
-      AnimalDetailsView()
+        AnimalDetailsView(name: "Kiki")
+            .environmentObject(NavigationState())
     }
     .previewLayout(.sizeThatFits)
     .previewDisplayName("iPhone SE (2nd generation)")
 
     NavigationView {
-      AnimalDetailsView()
+//      AnimalDetailsView()
     }
     .previewDevice("iPhone 12 Pro")
     .previewDisplayName("iPhone 12 Pro")
   }
+}
+
+struct AnimalDetailsRouter: NavigationRouter {
+    
+    typealias Data = AnimalEntity
+    
+    func navigate<T>(data: AnimalEntity, navigationState: NavigationState, view: (() -> T)?) -> AnyView where T : View {
+        AnyView(
+            
+            NavigationLink {
+                AnimalDetailsView(name: data.name ?? "")
+                    .environmentObject(navigationState)
+            } label: {
+                view?()
+            }
+        )
+    }
 }
