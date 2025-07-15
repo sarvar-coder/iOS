@@ -50,3 +50,7 @@ struct AnimalsNearYouView_Previews: PreviewProvider {
             .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
+
+class NavigationState: ObservableObject {
+    @Published var isNavigatingDisabled = false
+}

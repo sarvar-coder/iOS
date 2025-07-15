@@ -12,14 +12,15 @@ where Content: View,
       Data: RandomAccessCollection,
       Data.Element: AnimalEntity {
     let animals: Data
-    // 2
     let footer: Content
-    // 3
+    let router = AnimalDetailsRouter()
+    @StateObject var navigationState = NavigationState()
+    
     init(animals: Data, @ViewBuilder footer: () -> Content) {
         self.animals = animals
         self.footer = footer()
     }
-    // 4
+    
     init(animals: Data) where Content == EmptyView {
         self.init(animals: animals) {
             EmptyView()
@@ -27,10 +28,14 @@ where Content: View,
     }
     var body: some View {
         List {
+            Button(navigationState.isNavigatingDisabled ? "Enable Navigation" : "DisableNavigation") {
+                navigationState.isNavigatingDisabled.toggle()
+            }
             ForEach(animals) { animal in
-                NavigationLink(destination: AnimalDetailsView()) {
+                router.navigate(data: animal, navigationState: navigationState){
                     AnimalRow(animal: animal)
                 }
+                .disabled(navigationState.isNavigatingDisabled)
             }
             footer
         }
