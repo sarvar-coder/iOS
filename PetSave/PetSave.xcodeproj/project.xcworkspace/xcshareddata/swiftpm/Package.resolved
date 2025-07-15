@@ -1,0 +1,15 @@
+{
+  "originHash" : "5e41576b6dc927dad188a01aa910a96da73504dcaacf84a19d2fde40d33e3b0d",
+  "pins" : [
+    {
+      "identity" : "petsaveonboarding",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sarvar-coder/PetSaveOnboarding.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "51f2a1f71073729c9a99126deac74c677bdff440"
+      }
+    }
+  ],
+  "version" : 3
+}
