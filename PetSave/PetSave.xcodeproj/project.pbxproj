@@ -25,6 +25,7 @@
 		5E1F1ADC2E24CCFB002DC408 /* AnimalsFetcherMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1F1ADB2E24CCFB002DC408 /* AnimalsFetcherMock.swift */; };
 		5E1F1ADE2E24CDC1002DC408 /* AnimalStoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1F1ADD2E24CDC1002DC408 /* AnimalStoreService.swift */; };
 		5E1F1AE22E24EA42002DC408 /* AnimalAttributesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1F1AE12E24EA42002DC408 /* AnimalAttributesCard.swift */; };
+		5E43DE9D2E2605D10026C00E /* SearchViewModelTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E43DE9C2E2605D10026C00E /* SearchViewModelTestCase.swift */; };
 		5E58CE7F2E1FE4D70049B458 /* Animal .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58CE7E2E1FE4D70049B458 /* Animal .swift */; };
 		5E5AFF4E2E1FEB64002A7426 /* AnimalsMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AFF4D2E1FEB64002A7426 /* AnimalsMock.swift */; };
 		5E5AFF5E2E209641002A7426 /* CoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AFF5C2E209641002A7426 /* CoreDataTests.swift */; };
@@ -89,6 +90,12 @@
 		5EB2007A2E1CD80F007B75AA /* EmptyResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB200732E1CD80F007B75AA /* EmptyResultsView.swift */; };
 		5EB2007E2E1CD99E007B75AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB2007D2E1CD99E007B75AA /* LaunchScreen.storyboard */; };
 		5EB9E73A2E24ED1D00832196 /* AnimalsNearYouViewModelTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9E7392E24ED1D00832196 /* AnimalsNearYouViewModelTestCase.swift */; };
+		5EB9E7422E25F59500832196 /* AnimalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9E7412E25F59500832196 /* AnimalListView.swift */; };
+		5EB9E7452E25F8F500832196 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9E7442E25F8F500832196 /* SearchViewModel.swift */; };
+		5EB9E7482E25F98900832196 /* AnimalSearcherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9E7472E25F98900832196 /* AnimalSearcherService.swift */; };
+		5EB9E74A2E25FC9600832196 /* AnimalSearcherMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9E7492E25FC9600832196 /* AnimalSearcherMock.swift */; };
+		5EB9E74C2E25FF8600832196 /* SearchFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9E74B2E25FF8600832196 /* SearchFilterView.swift */; };
+		5EB9E74E2E26012C00832196 /* FilterAnimals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9E74D2E26012C00832196 /* FilterAnimals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +134,7 @@
 		5E1F1ADB2E24CCFB002DC408 /* AnimalsFetcherMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsFetcherMock.swift; sourceTree = "<group>"; };
 		5E1F1ADD2E24CDC1002DC408 /* AnimalStoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalStoreService.swift; sourceTree = "<group>"; };
 		5E1F1AE12E24EA42002DC408 /* AnimalAttributesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalAttributesCard.swift; sourceTree = "<group>"; };
+		5E43DE9C2E2605D10026C00E /* SearchViewModelTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModelTestCase.swift; sourceTree = "<group>"; };
 		5E58CE7E2E1FE4D70049B458 /* Animal .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animal .swift"; sourceTree = "<group>"; };
 		5E5AFF4D2E1FEB64002A7426 /* AnimalsMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsMock.swift; sourceTree = "<group>"; };
 		5E5AFF532E20963B002A7426 /* PetSaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetSaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,6 +203,12 @@
 		5EB200832E1CDC25007B75AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5EB200842E1CDC25007B75AA /* AnimalsMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AnimalsMock.json; sourceTree = "<group>"; };
 		5EB9E7392E24ED1D00832196 /* AnimalsNearYouViewModelTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsNearYouViewModelTestCase.swift; sourceTree = "<group>"; };
+		5EB9E7412E25F59500832196 /* AnimalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListView.swift; sourceTree = "<group>"; };
+		5EB9E7442E25F8F500832196 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		5EB9E7472E25F98900832196 /* AnimalSearcherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalSearcherService.swift; sourceTree = "<group>"; };
+		5EB9E7492E25FC9600832196 /* AnimalSearcherMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalSearcherMock.swift; sourceTree = "<group>"; };
+		5EB9E74B2E25FF8600832196 /* SearchFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilterView.swift; sourceTree = "<group>"; };
+		5EB9E74D2E26012C00832196 /* FilterAnimals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterAnimals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +273,14 @@
 			path = services;
 			sourceTree = "<group>";
 		};
+		5E43DE9B2E2605C30026C00E /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				5E43DE9C2E2605D10026C00E /* SearchViewModelTestCase.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		5E5AFF5D2E209641002A7426 /* PetSaveTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,6 +317,7 @@
 		5E5AFF622E209680002A7426 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				5E43DE9B2E2605C30026C00E /* Search */,
 				5EB9E7382E24ED0E00832196 /* AnimalsNearYou */,
 				5E5AFF5F2E20965C002A7426 /* Core */,
 			);
@@ -438,6 +461,7 @@
 		5EB200242E1CCEAA007B75AA /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				5EB9E7402E25F58A00832196 /* Views */,
 				5EB200252E1CCEB7007B75AA /* data */,
 				5EB2002F2E1CD249007B75AA /* domain */,
 				5EB200532E1CD4D7007B75AA /* utils */,
@@ -598,6 +622,8 @@
 		5EB2006C2E1CD717007B75AA /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				5EB9E7462E25F98100832196 /* services */,
+				5EB9E7432E25F8EA00832196 /* viewModels */,
 				5EB2006D2E1CD735007B75AA /* model */,
 				5EB200762E1CD80F007B75AA /* views */,
 			);
@@ -620,6 +646,7 @@
 				5EB200732E1CD80F007B75AA /* EmptyResultsView.swift */,
 				5EB200742E1CD80F007B75AA /* SuggestionsGrid.swift */,
 				5EB200752E1CD80F007B75AA /* SearchView.swift */,
+				5EB9E74B2E25FF8600832196 /* SearchFilterView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -639,6 +666,32 @@
 				5EB9E7392E24ED1D00832196 /* AnimalsNearYouViewModelTestCase.swift */,
 			);
 			path = AnimalsNearYou;
+			sourceTree = "<group>";
+		};
+		5EB9E7402E25F58A00832196 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5EB9E7412E25F59500832196 /* AnimalListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5EB9E7432E25F8EA00832196 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5EB9E7442E25F8F500832196 /* SearchViewModel.swift */,
+				5EB9E74D2E26012C00832196 /* FilterAnimals.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		5EB9E7462E25F98100832196 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				5EB9E7472E25F98900832196 /* AnimalSearcherService.swift */,
+				5EB9E7492E25FC9600832196 /* AnimalSearcherMock.swift */,
+			);
+			path = services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -788,6 +841,7 @@
 				5E5AFF9D2E2241AD002A7426 /* APIManagerMock.swift in Sources */,
 				5E5AFF5E2E209641002A7426 /* CoreDataTests.swift in Sources */,
 				5EB9E73A2E24ED1D00832196 /* AnimalsNearYouViewModelTestCase.swift in Sources */,
+				5E43DE9D2E2605D10026C00E /* SearchViewModelTestCase.swift in Sources */,
 				5E5AFFA12E2242D2002A7426 /* AnimalsRequestMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -804,6 +858,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB9E7452E25F8F500832196 /* SearchViewModel.swift in Sources */,
+				5EB9E7422E25F59500832196 /* AnimalListView.swift in Sources */,
 				5EB200612E1CD603007B75AA /* AnimalHeaderView.swift in Sources */,
 				5E5AFF832E220F2C002A7426 /* DataParser.swift in Sources */,
 				5E5AFF4E2E1FEB64002A7426 /* AnimalsMock.swift in Sources */,
@@ -825,6 +881,8 @@
 				5EB200402E1CD3B9007B75AA /* Gender.swift in Sources */,
 				5EB2006F2E1CD7D3007B75AA /* AnimalSearchType.swift in Sources */,
 				5E1F1AC72E23D679002DC408 /* Contact+CoreData.swift in Sources */,
+				5EB9E74A2E25FC9600832196 /* AnimalSearcherMock.swift in Sources */,
+				5EB9E74E2E26012C00832196 /* FilterAnimals.swift in Sources */,
 				5E1F1AC82E23D679002DC408 /* VideoLink+CoreData.swift in Sources */,
 				5E1F1AC92E23D679002DC408 /* Organization+CoreData.swift in Sources */,
 				5E1F1ACA2E23D679002DC408 /* AnimalEnvironment+CoreData.swift in Sources */,
@@ -839,6 +897,7 @@
 				5EB200212E1CCE7A007B75AA /* ContentView.swift in Sources */,
 				5EB200222E1CCE7A007B75AA /* PetSaveApp.swift in Sources */,
 				5EB2004C2E1CD46F007B75AA /* AnimalEnviroment.swift in Sources */,
+				5EB9E74C2E25FF8600832196 /* SearchFilterView.swift in Sources */,
 				5EB200552E1CD511007B75AA /* AddressFetcher.swift in Sources */,
 				5EB200292E1CCEE1007B75AA /* APIConstants.swift in Sources */,
 				5EB200482E1CD42E007B75AA /* VideoLink.swift in Sources */,
@@ -856,6 +915,7 @@
 				5E1F1ADA2E24CABF002DC408 /* FetchAnimalsService.swift in Sources */,
 				5E5AFF802E220E69002A7426 /* RequestManager.swift in Sources */,
 				5E1F1AE22E24EA42002DC408 /* AnimalAttributesCard.swift in Sources */,
+				5EB9E7482E25F98900832196 /* AnimalSearcherService.swift in Sources */,
 				5EB2004E2E1CD485007B75AA /* APIColors.swift in Sources */,
 				5EB200422E1CD3E6007B75AA /* Age.swift in Sources */,
 				5E5AFF8E2E221568002A7426 /* AnimalsRequest.swift in Sources */,
