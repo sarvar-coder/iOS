@@ -41,8 +41,8 @@ struct AnimalContactLink_Previews: PreviewProvider {
         url: url,
         color: .green
       )
-        .padding()
-        .previewLayout(.sizeThatFits)
+      .padding()
+      .previewLayout(.sizeThatFits)
     }
   }
 }

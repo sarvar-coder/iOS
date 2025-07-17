@@ -25,13 +25,13 @@ extension AnimalEntity {
         }
     }
 
-  var coat: Coat {
+  var coat: Coat? {
     get {
       guard let coatValue = coatValue, let coat = Coat(rawValue: coatValue) else { return Coat.unknown }
       return coat
     }
     set {
-      self.coatValue = newValue.rawValue
+        self.coatValue = newValue?.rawValue
     }
   }
 
