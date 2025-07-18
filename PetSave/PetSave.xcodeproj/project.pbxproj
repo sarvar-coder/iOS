@@ -28,6 +28,7 @@
 		5E228CBD2E2A5F7C0059EA41 /* sheep_sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E228CBC2E2A5F7C0059EA41 /* sheep_sans.ttf */; };
 		5E228CBF2E2A5FB60059EA41 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E228CBE2E2A5FB60059EA41 /* CustomFont.swift */; };
 		5E228CC22E2A638A0059EA41 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E228CC02E2A638A0059EA41 /* Localizable.strings */; };
+		5E228CC52E2A6D020059EA41 /* RequestLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E228CC42E2A6D020059EA41 /* RequestLocationView.swift */; };
 		5E43DE9D2E2605D10026C00E /* SearchViewModelTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E43DE9C2E2605D10026C00E /* SearchViewModelTestCase.swift */; };
 		5E58CE7F2E1FE4D70049B458 /* Animal .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58CE7E2E1FE4D70049B458 /* Animal .swift */; };
 		5E5AFF4E2E1FEB64002A7426 /* AnimalsMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AFF4D2E1FEB64002A7426 /* AnimalsMock.swift */; };
@@ -171,6 +172,7 @@
 		5E228CBE2E2A5FB60059EA41 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		5E228CC12E2A638A0059EA41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5E228CC32E2A63F80059EA41 /* es-US */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-US"; path = "es-US.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		5E228CC42E2A6D020059EA41 /* RequestLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestLocationView.swift; sourceTree = "<group>"; };
 		5E43DE9C2E2605D10026C00E /* SearchViewModelTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModelTestCase.swift; sourceTree = "<group>"; };
 		5E58CE7E2E1FE4D70049B458 /* Animal .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animal .swift"; sourceTree = "<group>"; };
 		5E5AFF4D2E1FEB64002A7426 /* AnimalsMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsMock.swift; sourceTree = "<group>"; };
@@ -673,6 +675,7 @@
 				5EB2006A2E1CD701007B75AA /* AnimalsNearYouView.swift */,
 				5E5AFF912E22196A002A7426 /* AnimalRow.swift */,
 				5E1F1AE12E24EA42002DC408 /* AnimalAttributesCard.swift */,
+				5E228CC42E2A6D020059EA41 /* RequestLocationView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1003,6 +1006,7 @@
 				5E1F1AC72E23D679002DC408 /* Contact+CoreData.swift in Sources */,
 				5EB9E74A2E25FC9600832196 /* AnimalSearcherMock.swift in Sources */,
 				5EB9E74E2E26012C00832196 /* FilterAnimals.swift in Sources */,
+				5E228CC52E2A6D020059EA41 /* RequestLocationView.swift in Sources */,
 				5E1F1AC82E23D679002DC408 /* VideoLink+CoreData.swift in Sources */,
 				5E1F1AC92E23D679002DC408 /* Organization+CoreData.swift in Sources */,
 				5EF0F4D52E2766C500534B2A /* LoadingAnimation.swift in Sources */,

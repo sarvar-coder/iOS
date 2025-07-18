@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @StateObject var tabNavigator = PetSaveTabNavigator()
+    @StateObject var locationManager = LocationManager()
     let viewContext = PersistenceController.shared.container.viewContext
     
     var body: some View {
@@ -36,6 +37,7 @@ struct ContentView: View {
                 }
                 .environment(\.managedObjectContext, viewContext)
         }
+        .environmentObject(locationManager)
         .onOpenURL { url in
             let type = PetSaveTabType.deepLinkType(url: url)
             
@@ -46,4 +48,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environmentObject(LocationManager())
 }

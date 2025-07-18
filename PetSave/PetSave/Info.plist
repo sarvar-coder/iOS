@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>PetSave use your locations data to find animal near you. </string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>sheep_sans.ttf</string>
