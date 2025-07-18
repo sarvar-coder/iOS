@@ -41,9 +41,9 @@ struct AnimalRow: View {
             VStack(alignment: .leading) {
                 Text(animal.name ?? "No Name Available")
                     .multilineTextAlignment(.center)
-                    .font(.title3)
+                    .font(.custom(.customFont, size: 18, relativeTo: .title3))
                 Text(animalBreedAndType)
-                .font(.callout)
+                    .font(.custom(.customFont, size: 15, relativeTo: .callout))
                 if let description = animal.desc {
                     Text(description)
                         .lineLimit(2)
