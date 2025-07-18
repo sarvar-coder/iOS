@@ -6,9 +6,10 @@
 //
 
 import Foundation
+import CoreLocation
 
 protocol AnimalsFetcher {
-    func fetchAnimals(page: Int) async -> [Animal]
+    func fetchAnimals(page: Int, latitude: Double?, longitude: Double?) async -> [Animal]
 }
 
 protocol AnimalStore {
@@ -34,23 +35,29 @@ final class AnimalsNearYouViewModel: ObservableObject {
     }
     
     
-    func fetchAnimals() async {
+    func fetchAnimals(location: CLLocation?) async {
         isLoading = true
-        let animals = await animalsFetcher.fetchAnimals(page: page)
-        
         do {
+            
+            let animals = await animalsFetcher.fetchAnimals(
+                page: page,
+                latitude: location?.coordinate.latitude,
+                longitude: location?.coordinate.longitude
+            )
+            
             try await animalStore.save(animals: animals)
+            
+            hasMoreAnimals = !animals.isEmpty
         } catch {
-        print("Error storing animals... \(error.localizedDescription)")
+            
+            print("Error fetching animals... \(error.localizedDescription)")
         }
-        
         isLoading = false
-        hasMoreAnimals = !animals.isEmpty
     }
     
-    func fetchMoreAnimals() async {
+    func fetchMoreAnimals(location: CLLocation?) async {
     page += 1
-    await fetchAnimals()
+    await fetchAnimals(location: location)
     }
     
     func stopLoading() {
