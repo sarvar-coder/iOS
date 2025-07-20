@@ -20,36 +20,30 @@ struct AnimalsNearYouView: View {
     
     
     var body: some View {
-        NavigationView {
-            
-            if locationManager.locationIsDisabled {
-                RequestLocationView()
-                    .navigationTitle("Animals near you")
-            } else {
-                
-                AnimalListView(animals: animals) {
-                    if !animals.isEmpty && viewModel.hasMoreAnimals {
-                        HStack(alignment: .center) {
-                            LoadingAnimation()
-                                .frame(maxWidth: 125, minHeight: 125)
-                            Text("Loading more animals...")
-                        }
-                        .task {
-                            await viewModel.fetchMoreAnimals(location: locationManager.lastSeenLocation)
-                        }
+        NavigationView {       
+            AnimalListView(animals: animals) {
+                if !animals.isEmpty && viewModel.hasMoreAnimals {
+                    HStack(alignment: .center) {
+                        LoadingAnimation()
+                            .frame(maxWidth: 125, minHeight: 125)
+                        Text("Loading more animals...")
+                    }
+                    .task {
+                        await viewModel.fetchMoreAnimals(location: locationManager.lastSeenLocation)
                     }
                 }
-                .task {
-                    await viewModel.fetchAnimals(location: locationManager.lastSeenLocation)
+            }
+            .task {
+                await viewModel.fetchAnimals(location: locationManager.lastSeenLocation)
+            }
+            .listStyle(.plain)
+            .navigationTitle("Animals near you")
+            .overlay {
+                if viewModel.isLoading && animals.isEmpty {
+                    ProgressView("Finding Animals near you...")
                 }
-                .listStyle(.plain)
-                .navigationTitle("Animals near you")
-                .overlay {
-                    if viewModel.isLoading && animals.isEmpty {
-                        ProgressView("Finding Animals near you...")
-                    }
-                }
-            }        }
+            }
+        }
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }

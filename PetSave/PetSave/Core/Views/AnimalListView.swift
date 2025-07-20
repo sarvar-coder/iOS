@@ -13,7 +13,6 @@ where Content: View,
       Data.Element: AnimalEntity {
     let animals: Data
     let footer: Content
-    @StateObject var navigationState = NavigationState()
     
     init(animals: Data, @ViewBuilder footer: () -> Content) {
         self.animals = animals
@@ -27,14 +26,10 @@ where Content: View,
     }
     var body: some View {
         List {
-            Button(navigationState.isNavigatingDisabled ? "Enable Navigation" : "DisableNavigation") {
-                navigationState.isNavigatingDisabled.toggle()
-            }
             ForEach(animals) { animal in
                 NavigationLink(destination: AnimalDetailsView(animal: animal)){
                     AnimalRow(animal: animal)
                 }
-                .disabled(navigationState.isNavigatingDisabled)
             }
             footer
         }
